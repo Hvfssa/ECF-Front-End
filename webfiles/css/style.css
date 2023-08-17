@@ -273,16 +273,14 @@ footer #containerF form button {
   margin: 0 90px;
 }
 
-#img {
+#fleche #img {
   position: absolute;
   right: 0;
 }
-
-.none {
+#fleche .none {
   display: none;
 }
-
-.block {
+#fleche .block {
   display: block;
 }
 

@@ -336,16 +336,19 @@ footer {
     }
 }
 
-#img{
-    position: absolute;
-    right: 0;
+#fleche{
+    #img{
+        position: absolute;
+        right: 0;
+    }
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
 }
-.none{
-    display: none;
-}
-.block{
-    display: block;
-}
+
 
 @media screen and (max-width: 1024px){
     header{
