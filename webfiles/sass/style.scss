@@ -11,6 +11,10 @@
 
 header {
     background-color: #61A8BC;
+        z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 0;
 
     nav {
         display: flex;
@@ -18,7 +22,6 @@ header {
         align-items: center;
         max-width: 1400px;
         margin: auto;
-
 
         img {
             width: 191px;
@@ -242,12 +245,14 @@ main {
 footer {
     background-color: #61A8BC;
     padding: 40px 80px 0px 80px;
-
+    z-index: 2;
+    position: relative;
+    
     #containerF {
         max-width: 1400px;
         margin: auto;
         display: flex;
-        align-items: center;
+        align-items: stretch;
         justify-content: space-between;
 
         #grid {

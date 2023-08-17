@@ -6,6 +6,10 @@
 
 header {
   background-color: #61A8BC;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 header nav {
   display: flex;
@@ -192,12 +196,14 @@ main #Troisième button {
 footer {
   background-color: #61A8BC;
   padding: 40px 80px 0px 80px;
+  z-index: 2;
+  position: relative;
 }
 footer #containerF {
   max-width: 1400px;
   margin: auto;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
 }
 footer #containerF #grid {
