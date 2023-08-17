@@ -59,13 +59,15 @@ main {
     // margin: auto;
 
     #Première {
-        background-color: #61A8BC;
+        background-color: #61A8BC; 
+        height: 100vh;
+
 
         #container {
             max-width: 1400px;
             margin: auto;
             display: flex;
-            align-items: center;
+            align-items: flex-end;
             min-height: 90vh;
 
             #leftContainer {
@@ -247,7 +249,7 @@ footer {
     padding: 40px 80px 0px 80px;
     z-index: 2;
     position: relative;
-    
+
     #containerF {
         max-width: 1400px;
         margin: auto;
@@ -329,6 +331,83 @@ footer {
                 background-color: #660000;
                 color: white;
                 margin: 0 90px;
+            }
+        }
+    }
+}
+
+#img{
+    position: absolute;
+    right: 0;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        .block{
+            display: block;
+        }
+        nav{
+            align-items: center;
+
+            #absolute{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            ul{
+                display: none;
+                background-color: rgba(236, 236, 236, 1);
+                width: 100%;
+                text-align: center;
+            }
+            .Menu{
+                margin-top: 45px;
+                margin-bottom: 45px;
+                padding: 20px;
+                border-top: 5px solid white;
+                border-bottom: 5px solid white;
+                position: relative;
+                cursor: pointer;
+                margin-right: 15px;
+
+                &::before{
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    height: 5px;
+                    width: 50%;
+                    left: 0;
+                    background-color: white;
+                }
+
+                &::after{
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    height: 5px;
+                    width: 50%;
+                    background-color: white;
+                }
+            }
+            .open{
+                border: 0;
+
+                &::after{
+                    transform: rotateZ(50deg);
+                }
+                &::before{
+                    transform: rotateZ(-50deg);
+                    left: 20px;
+                }
+            }
+            img{
+                margin-left: 36px;
             }
         }
     }
