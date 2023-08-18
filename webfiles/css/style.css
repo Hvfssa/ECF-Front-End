@@ -142,7 +142,7 @@ main #Troisième #cour1 button:first-of-type {
   background: rgba(102, 0, 0, 0.7490196078);
   color: white;
   font-family: Source Sans Pro;
-  font-size: 105em;
+  font-size: 1.05em;
   top: 20px;
   right: 44%;
 }
