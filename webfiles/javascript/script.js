@@ -61,7 +61,7 @@ window.addEventListener("scroll", () =>{
     if(window.innerHeight < 500){
         div.setAttribute("class", "none")
     }else{
-        div.setAttribute("class", "block")
+        div.setAttribute("class", "bloc")
     }
 });
 

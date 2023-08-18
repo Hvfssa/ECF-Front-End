@@ -17,6 +17,7 @@ header nav {
   align-items: center;
   max-width: 1400px;
   margin: auto;
+  padding: 0.625em 0;
 }
 header nav img {
   width: 191px;
@@ -32,7 +33,7 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 0.625em 1.563em;
   color: white;
 }
 header nav ul li a:hover {
@@ -54,7 +55,7 @@ main #Première #container {
   min-height: 90vh;
 }
 main #Première #container #leftContainer {
-  padding: 0px 0px 50px 80px;
+  padding: 0 0 3.125em 5em;
 }
 main #Première #container img {
   width: 398px;
@@ -62,29 +63,29 @@ main #Première #container img {
 }
 main #Première #container h1 {
   font-family: Merriweather;
-  font-size: 65px;
+  font-size: 4.063em;
   text-align: left;
   color: white;
-  padding: 10px;
+  padding: 0.625em;
 }
 main #Première #container p {
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
   color: white;
-  padding: 20px;
+  padding: 1.25em;
 }
 main #Première #container button {
-  padding: 10px 35px 10px 35px;
+  padding: 0.625em 2.188em 0.625em 2.188em;
   background: #660000;
   color: white;
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
 }
 main #Deuxième {
   background: linear-gradient(180deg, #660000 33.33%, #3B0000 100%);
-  padding: 185px 80px 185px 80px;
+  padding: 11.563em 5em 11.563em 5em;
 }
 main #Deuxième #container2 {
   max-width: 1400px;
@@ -100,13 +101,14 @@ main #Deuxième #container2 img {
 }
 main #Deuxième #container2 h2 {
   font-family: Source Sans Pro;
-  font-size: 65px;
+  font-size: 4.063em;
   text-align: center;
   color: white;
+  padding: 0.625em;
 }
 main #Deuxième #container2 p {
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
   color: white;
 }
@@ -118,7 +120,7 @@ main #Troisième {
 }
 main #Troisième h2 {
   font-family: Source Sans Pro;
-  font-size: 65px;
+  font-size: 4.063em;
   text-align: center;
 }
 main #Troisième #cour1 {
@@ -128,7 +130,7 @@ main #Troisième #cour1 {
 main #Troisième #cour1 img {
   object-fit: contain;
   height: 540px;
-  margin: -6px;
+  margin: -0.375em;
 }
 main #Troisième #cour1 img:first-of-type {
   width: 55%;
@@ -140,13 +142,13 @@ main #Troisième #cour1 button:first-of-type {
   background: rgba(102, 0, 0, 0.7490196078);
   color: white;
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 105em;
   top: 20px;
   right: 44%;
 }
 main #Troisième #cour1 button:last-of-type {
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0.7490196078);
   color: #660000;
@@ -160,7 +162,7 @@ main #Troisième #cour2 {
 main #Troisième #cour2 img {
   object-fit: cover;
   height: 540px;
-  margin: -8px;
+  margin: -0.5em;
 }
 main #Troisième #cour2 img:first-of-type {
   width: 55%;
@@ -171,7 +173,7 @@ main #Troisième #cour2 img:last-of-type {
 main #Troisième #cour2 button:first-of-type {
   background-color: rgba(104, 161, 177, 0.7490196078);
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
   color: white;
   top: 20px;
@@ -181,7 +183,7 @@ main #Troisième #cour2 button:last-of-type {
   background-color: rgba(255, 255, 255, 0.7490196078);
   color: #61A8BC;
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5;
   font-weight: 700;
   top: 170px;
   right: 44%;
@@ -193,10 +195,20 @@ main #Troisième button {
   height: 220px;
   border-radius: 220px;
 }
+main #fleche #img {
+  position: absolute;
+  right: 0;
+}
+main #fleche .none {
+  display: none;
+}
+main #fleche .bloc {
+  display: block;
+}
 
 footer {
   background-color: #61A8BC;
-  padding: 40px 80px 0px 80px;
+  padding: 2.5em 5em 0 5em;
   z-index: 2;
   position: relative;
 }
@@ -215,16 +227,16 @@ footer #containerF #grid a {
   text-decoration: none;
   color: white;
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
-  padding: 10px 0;
+  padding: 0.625em 0;
 }
 footer #containerF #grid h3 {
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
   color: white;
-  padding: 10px 0;
+  padding: 0.625em 0;
 }
 footer #containerF #onglets {
   display: flex;
@@ -237,51 +249,40 @@ footer #containerF #ongletsP {
   align-items: flex-start;
 }
 footer #containerF #authors {
-  padding: 0 0 40px 0;
+  padding: 0 0 2.5em 0;
 }
 footer #containerF #authors p {
   font-family: Source Sans Pro;
-  font-size: 18px;
+  font-size: 1.125em;
   text-align: left;
   color: white;
-  padding: 25px 0;
+  padding: 1.563em 0;
 }
 footer #containerF form {
   background-color: #D0E4EB;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 2.5em;
 }
 footer #containerF form h3 {
   color: #660000;
   font-family: Source Sans Pro;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.625em 0;
 }
 footer #containerF form input {
-  padding: 6px 10px;
+  padding: 0.375em 0.625em;
   border: 1px solid #CCCCCC;
   background-color: white;
   color: #CCCCCC;
-  margin: 15px 0;
+  margin: 0.938em 0;
 }
 footer #containerF form button {
-  padding: 10px 35px;
+  padding: 0.625em 2.188em;
   background-color: #660000;
   color: white;
-  margin: 0 90px;
-}
-
-#fleche #img {
-  position: absolute;
-  right: 0;
-}
-#fleche .none {
-  display: none;
-}
-#fleche .block {
-  display: block;
+  margin: 0 5.625em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -290,6 +291,8 @@ footer #containerF form button {
   }
   header nav {
     align-items: center;
+    max-width: 950px;
+    margin: auto;
   }
   header nav #absolute {
     position: absolute;
@@ -303,14 +306,14 @@ footer #containerF form button {
     text-align: center;
   }
   header nav .Menu {
-    margin-top: 45px;
-    margin-bottom: 45px;
-    padding: 20px;
+    margin-top: 2.813em;
+    margin-bottom: 2.813em;
+    padding: 1.25em;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     position: relative;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 0.938em;
   }
   header nav .Menu::before {
     position: absolute;
@@ -340,7 +343,75 @@ footer #containerF form button {
     left: 20px;
   }
   header nav img {
-    margin-left: 36px;
+    margin-left: 2.25em;
+  }
+  main #Troisième #cour1 img {
+    height: 395px;
+  }
+  main #Troisième #cour1 img:last-of-type {
+    margin-top: 0.5em;
+  }
+  main #Troisième #cour1 button:first-of-type {
+    top: 40px;
+  }
+  main #Troisième #cour2 {
+    margin-top: -0.813em;
+  }
+  main #Troisième #cour2 button:last-of-type {
+    top: 140px;
+  }
+  main #Troisième button {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main #Première {
+    height: 90vh;
+  }
+  main #Première #container h1 {
+    font-size: 3.125em;
+  }
+  main #Première #container p {
+    font-size: 1.125em;
+  }
+  main #Deuxième {
+    padding: 6.25em 3.75em 6.25em 3.75em;
+  }
+  main #Deuxième #container2 h2 {
+    font-size: 2.813em;
+  }
+  main #Deuxième #container2 p {
+    font-size: 1.125em;
+  }
+  main #Troisième h2 {
+    font-size: 2.813em;
+  }
+  main #Troisième #cour1 button:first-of-type {
+    top: 58px;
+  }
+  main #Troisième #cour2 {
+    margin-top: -3.5em;
+  }
+  main #Troisième #cour2 button:first-of-type {
+    top: 63px;
+  }
+  main #Troisième button {
+    width: 168px;
+    height: 164px;
+  }
+  footer {
+    padding: 1.875em 2.125em 0px 2.125em;
+  }
+  footer #containerF #grid {
+    display: flex;
+    flex-direction: column;
+  }
+  footer #containerF #onglets {
+    margin-bottom: 0.938em;
+  }
+  footer #containerF form {
+    padding: 6.25em 1.875em 0 1.875em;
   }
 }
 
