@@ -354,6 +354,9 @@ footer #containerF form button {
   header nav img {
     margin-left: 2.25em;
   }
+  main #Première {
+    padding-top: 126px;
+  }
   main #Troisième #cour1 img {
     height: 395px;
   }
@@ -375,8 +378,17 @@ footer #containerF form button {
   }
 }
 @media screen and (max-width: 768px) {
+  header nav {
+    max-width: 450px;
+    margin: auto;
+  }
   main #Première {
-    height: 90vh;
+    height: 200vh;
+    padding-top: 126px;
+  }
+  main #Première #container {
+    max-width: 700px;
+    margin: auto;
   }
   main #Première #container h1 {
     font-size: 3.125em;
