@@ -83,62 +83,70 @@ main #Première #container button {
   font-size: 1.5em;
   text-align: left;
 }
-main #Deuxième {
+main #Première #container button:hover {
+  background-color: white;
+  color: #660000;
+  border: 2px solid #660000;
+  border-radius: 5px;
+}
+
+#Deuxième {
   background: linear-gradient(180deg, #660000 33.33%, #3B0000 100%);
   padding: 11.563em 5em 11.563em 5em;
 }
-main #Deuxième #container2 {
+#Deuxième #container2 {
   max-width: 1400px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main #Deuxième #container2 img {
+#Deuxième #container2 img {
   width: 244px;
   height: 185px;
   object-fit: cover;
 }
-main #Deuxième #container2 h2 {
+#Deuxième #container2 h2 {
   font-family: Source Sans Pro;
   font-size: 4.063em;
   text-align: center;
   color: white;
   padding: 0.625em;
 }
-main #Deuxième #container2 p {
+#Deuxième #container2 p {
   font-family: Source Sans Pro;
   font-size: 1.5em;
   text-align: left;
   color: white;
 }
-main #Troisième {
+
+#Troisième {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main #Troisième h2 {
+#Troisième h2 {
   font-family: Source Sans Pro;
   font-size: 4.063em;
   text-align: center;
 }
-main #Troisième #cour1 {
+#Troisième #cour1 {
   display: flex;
   position: relative;
 }
-main #Troisième #cour1 img {
+#Troisième #cour1 img {
   object-fit: contain;
   height: 540px;
   margin: -0.375em;
 }
-main #Troisième #cour1 img:first-of-type {
+#Troisième #cour1 img:first-of-type {
   width: 55%;
 }
-main #Troisième #cour1 img:last-of-type {
+#Troisième #cour1 img:last-of-type {
   width: 45%;
 }
-main #Troisième #cour1 button:first-of-type {
+#Troisième #cour1 button:first-of-type {
   background: rgba(102, 0, 0, 0.7490196078);
   color: white;
   font-family: Source Sans Pro;
@@ -146,7 +154,7 @@ main #Troisième #cour1 button:first-of-type {
   top: 20px;
   right: 44%;
 }
-main #Troisième #cour1 button:last-of-type {
+#Troisième #cour1 button:last-of-type {
   font-family: Source Sans Pro;
   font-size: 1.5em;
   font-weight: 400;
@@ -155,22 +163,22 @@ main #Troisième #cour1 button:last-of-type {
   top: 154px;
   left: 50%;
 }
-main #Troisième #cour2 {
+#Troisième #cour2 {
   display: flex;
   position: relative;
 }
-main #Troisième #cour2 img {
+#Troisième #cour2 img {
   object-fit: cover;
   height: 540px;
   margin: -0.5em;
 }
-main #Troisième #cour2 img:first-of-type {
+#Troisième #cour2 img:first-of-type {
   width: 55%;
 }
-main #Troisième #cour2 img:last-of-type {
+#Troisième #cour2 img:last-of-type {
   width: 45%;
 }
-main #Troisième #cour2 button:first-of-type {
+#Troisième #cour2 button:first-of-type {
   background-color: rgba(104, 161, 177, 0.7490196078);
   font-family: Source Sans Pro;
   font-size: 1.5em;
@@ -179,7 +187,7 @@ main #Troisième #cour2 button:first-of-type {
   top: 20px;
   left: 50%;
 }
-main #Troisième #cour2 button:last-of-type {
+#Troisième #cour2 button:last-of-type {
   background-color: rgba(255, 255, 255, 0.7490196078);
   color: #61A8BC;
   font-family: Source Sans Pro;
@@ -188,21 +196,22 @@ main #Troisième #cour2 button:last-of-type {
   top: 170px;
   right: 44%;
 }
-main #Troisième button {
+#Troisième button {
   position: absolute;
   text-align: center;
   width: 220px;
   height: 220px;
   border-radius: 220px;
 }
-main #fleche #img {
+
+#fleche #img {
   position: absolute;
   right: 0;
 }
-main #fleche .none {
+#fleche .none {
   display: none;
 }
-main #fleche .bloc {
+#fleche .bloc {
   display: block;
 }
 
